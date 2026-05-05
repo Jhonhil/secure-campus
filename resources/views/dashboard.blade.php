@@ -15,20 +15,20 @@
             <div class="p-6">
                 <h2 class="text-xl font-semibold mb-4">Mata Kuliah</h2>
                 <div class="overflow-x-auto bg-white dark:bg-zinc-800 rounded-lg border border-gray-200 dark:border-zinc-700">
-                    <table class="min-w-full text-sm">
+                    <table class="min-w-full text-base">
                         <thead class="bg-gray-50 dark:bg-zinc-700 text-gray-900 dark:text-zinc-100">
                             <tr>
-                                <th class="px-6 py-4 text-left font-semibold">Kode</th>
-                                <th class="px-6 py-4 text-left font-semibold">Nama Mata Kuliah</th>
-                                <th class="px-6 py-4 text-left font-semibold">Dosen</th>
+                                <th class="px-8 py-5 text-left font-semibold text-lg">Kode</th>
+                                <th class="px-8 py-5 text-left font-semibold text-lg">Nama Mata Kuliah</th>
+                                <th class="px-8 py-5 text-left font-semibold text-lg">Dosen</th>
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-gray-200 dark:divide-zinc-600">
                             @forelse (\App\Models\Course::query()->select(['id', 'code', 'name', 'lecturer'])->orderBy('code')->get() as $course)
                                 <tr class="hover:bg-gray-50 dark:hover:bg-zinc-700 transition-colors">
-                                    <td class="px-6 py-4 font-mono font-medium text-gray-900 dark:text-zinc-100">{{ $course->code }}</td>
-                                    <td class="px-6 py-4 text-gray-900 dark:text-zinc-100">{{ $course->name }}</td>
-                                    <td class="px-6 py-4 text-gray-700 dark:text-zinc-300">{{ $course->lecturer }}</td>
+                                    <td class="px-8 py-5 font-mono font-medium text-gray-900 dark:text-zinc-100">{{ $course->code }}</td>
+                                    <td class="px-8 py-5 text-gray-900 dark:text-zinc-100">{{ $course->name }}</td>
+                                    <td class="px-8 py-5 text-gray-700 dark:text-zinc-300">{{ $course->lecturer }}</td>
                                 </tr>
                             @empty
                                 <tr>
