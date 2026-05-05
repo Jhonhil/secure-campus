@@ -119,8 +119,8 @@ Masukkan screenshot:
 - Security headers
   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c7d20270-eb6b-48b2-a839-bd19857a3a70" />
   <img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/60b4598c-9871-4b3f-862d-96376dbded1c" />
-
 - GitHub repository
+<img width="1920" height="1080" alt="{9469AC43-6645-45FC-AC7E-D44BDF92C38E}" src="https://github.com/user-attachments/assets/4dd2dad4-3cb5-4e14-9131-95e3bb65b374" />
 
 10. Kesimpulan
 Aplikasi Secure Campus telah menerapkan fitur authentication dan secure coding dasar berdasarkan ASVS Level 1. Password tidak disimpan plaintext, route penting dilindungi authentication dan verification, input divalidasi di server, session/cookie dikonfigurasi, dan dokumentasi menyediakan checklist ASVS.
