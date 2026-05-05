@@ -117,6 +117,9 @@ Masukkan screenshot:
 - Database users memperlihatkan password hash
   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b1bc2154-e69b-4ee0-94fc-bfe18580dbaf" />
 - Security headers
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c7d20270-eb6b-48b2-a839-bd19857a3a70" />
+  <img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/60b4598c-9871-4b3f-862d-96376dbded1c" />
+
 - GitHub repository
 
 10. Kesimpulan
