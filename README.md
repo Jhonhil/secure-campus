@@ -41,12 +41,12 @@ Kelas: A
 Mata Kuliah: Keamanan Sistem informasi
 
 2. Link GitHub
-https://github.com/USERNAME/secure-campus
+https://github.com/Jhonhil/secure-campus.git
 
-3. Deskripsi Aplikasi
+4. Deskripsi Aplikasi
 Secure Campus adalah aplikasi web sederhana seperti sistem e-class/kampus yang memiliki fitur authentication: registrasi, email verification, login, logout, dan password reset.
 
-4. Tools
+5. Tools
 - Laravel
 - VS Code
 - Laragon
