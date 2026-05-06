@@ -16,8 +16,8 @@ test('new users can register', function () {
     $response = $this->post(route('register.store'), [
         'name' => 'John Doe',
         'email' => 'test@example.com',
-        'password' => 'securepassword123',
-        'password_confirmation' => 'securepassword123',
+        'password' => 'Xc7#Rv9!Lp2$',
+        'password_confirmation' => 'Xc7#Rv9!Lp2$',
     ]);
 
     $response->assertSessionHasNoErrors()

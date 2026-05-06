@@ -71,33 +71,33 @@ test('two factor authentication disabled when confirmation abandoned between req
 
 test('password can be updated', function () {
     $user = User::factory()->create([
-        'password' => Hash::make('securepassword123'),
+        'password' => Hash::make('Qw8#Er5!Ty1$'),
     ]);
 
     $this->actingAs($user);
 
     $response = Livewire::test('pages::settings.security')
-        ->set('current_password', 'securepassword123')
-        ->set('password', 'newsecurepassword123')
-        ->set('password_confirmation', 'newsecurepassword123')
+        ->set('current_password', 'Qw8#Er5!Ty1$')
+        ->set('password', 'Gh6%Ui2?Op3$')
+        ->set('password_confirmation', 'Gh6%Ui2?Op3$')
         ->call('updatePassword');
 
     $response->assertHasNoErrors();
 
-    expect(Hash::check('newsecurepassword123', $user->refresh()->password))->toBeTrue();
+    expect(Hash::check('Gh6%Ui2?Op3$', $user->refresh()->password))->toBeTrue();
 });
 
 test('correct password must be provided to update password', function () {
     $user = User::factory()->create([
-        'password' => Hash::make('securepassword123'),
+        'password' => Hash::make('Qw8#Er5!Ty1$'),
     ]);
 
     $this->actingAs($user);
 
     $response = Livewire::test('pages::settings.security')
         ->set('current_password', 'wrong-password')
-        ->set('password', 'newsecurepassword123')
-        ->set('password_confirmation', 'newsecurepassword123')
+        ->set('password', 'Gh6%Ui2?Op3$')
+        ->set('password_confirmation', 'Gh6%Ui2?Op3$')
         ->call('updatePassword');
 
     $response->assertHasErrors(['current_password']);

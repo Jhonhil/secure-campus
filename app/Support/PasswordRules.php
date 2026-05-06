@@ -12,8 +12,13 @@ class PasswordRules
         $rules = [
             'required',
             'string',
-            Password::min(8),
-            new NotCommonPassword(),
+            Password::min(10)
+                ->mixedCase()
+                ->letters()
+                ->numbers()
+                ->symbols()
+                ->uncompromised(),
+            new NotCommonPassword,
         ];
 
         if ($confirmed) {
