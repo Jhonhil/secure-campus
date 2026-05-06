@@ -35,12 +35,10 @@ Judul:
 Implementasi Secure Coding pada Aplikasi Secure Campus Menggunakan Laravel dan ASVS Level 1
 
 1. Identitas
+   
 Nama: Yohanes Hilapok
-
 NIM: 72230670
-
 Kelas: A
-
 Mata Kuliah: Keamanan Sistem informasi
 
 3. Link GitHub
