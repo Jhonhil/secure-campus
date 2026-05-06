@@ -140,7 +140,7 @@ Masukkan screenshot:
   <img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/60b4598c-9871-4b3f-862d-96376dbded1c" />
   
 - GitHub repository
-<img width="1920" height="1080" alt="{9469AC43-6645-45FC-AC7E-D44BDF92C38E}" src="https://github.com/user-attachments/assets/4dd2dad4-3cb5-4e14-9131-95e3bb65b374" />
+<img width="1920" height="1080" alt="{136A53C6-1B44-4346-AB4E-8F413831ADFF}" src="https://github.com/user-attachments/assets/4ac6fe88-ca28-44ef-b1b1-843e0998bd70" />
 
 
 10. Kesimpulan
