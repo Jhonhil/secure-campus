@@ -36,11 +36,14 @@ Implementasi Secure Coding pada Aplikasi Secure Campus Menggunakan Laravel dan A
 
 1. Identitas
 Nama: Yohanes Hilapok
+
 NIM: 72230670
+
 Kelas: A
+
 Mata Kuliah: Keamanan Sistem informasi
 
-2. Link GitHub
+3. Link GitHub
 https://github.com/Jhonhil/secure-campus.git
 
 4. Deskripsi Aplikasi
