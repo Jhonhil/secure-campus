@@ -1,39 +1,14 @@
-| ASVS                                           | Level | Implementasi di aplikasi                                            |
-| ---------------------------------------------- | ----: | ------------------------------------------------------------------- |
-| V1.2.1 Output Encoding                         |    L1 | Blade memakai `{{ }}` untuk escape output, bukan `{!! !!}`.         |
-| V1.2.4 SQL Injection Prevention                |    L1 | Data course diambil memakai Eloquent, bukan raw SQL string.         |
-| V2.1.1 Validation Documentation                |    L1 | Dokumentasi mencatat aturan validasi name, email, password.         |
-| V2.2.1 Input Validation                        |    L1 | Form register/login/reset password divalidasi server-side.          |
-| V2.2.2 Trusted Service Layer                   |    L1 | Validasi dilakukan di backend Laravel, bukan hanya JavaScript.      |
-| V3.3.1 Secure Cookie                           |    L1 | Production memakai `SESSION_SECURE_COOKIE=true`.                    |
-| V3.4.1 HSTS                                    |    L1 | Middleware menambahkan HSTS saat request HTTPS.                     |
-| V3.5.1 CSRF Protection                         |    L1 | Form memakai CSRF bawaan Laravel.                                   |
-| V3.5.3 Safe HTTP Methods                       |    L1 | Perubahan data memakai POST/PATCH/DELETE, bukan GET.                |
-| V6.1.1 Brute Force Documentation               |    L1 | Dokumentasi menjelaskan rate limiting login.                        |
-| V6.2.1 Password Minimum Length                 |    L1 | Password minimal 8 karakter.                                        |
-| V6.2.2 User Can Change Password                |    L1 | Starter kit menyediakan update password.                            |
-| V6.2.3 Current Password Required               |    L1 | Update password meminta current password.                           |
-| V6.2.4 Common Password Rejection               |    L1 | Rule `NotCommonPassword` menolak password umum.                     |
-| V6.2.5 Password Composition                    |    L1 | Tidak memaksa huruf besar/angka/simbol.                             |
-| V6.2.6 Password Masking                        |    L1 | Field password memakai `type="password"`.                           |
-| V6.3.1 Credential Stuffing/Brute Force Defense |    L1 | Rate limiting login bawaan starter kit tidak dihapus.               |
-| V6.3.2 Default Accounts                        |    L1 | Tidak membuat akun default `admin/admin`.                           |
-| V6.4.2 No Secret Questions                     |    L1 | Password reset tidak memakai secret question.                       |
-| V7.2.1 Backend Session Verification            |    L1 | Session diverifikasi di backend Laravel.                            |
-| V7.2.4 New Session on Authentication           |    L1 | Starter kit Laravel melakukan session regeneration saat login.      |
-| V7.4.1 Logout Terminates Session               |    L1 | Logout mengakhiri session.                                          |
-| V8.2.1 Function-Level Access Control           |    L1 | Route `/dashboard` dan `/courses` dilindungi `auth` dan `verified`. |
-| V8.3.1 Server-Side Authorization               |    L1 | Access control di route middleware Laravel, bukan hanya UI.         |
-| V12.2.1 HTTPS External Service                 |    L1 | Production wajib HTTPS.                                             |
-| V13.4.1 No Source Control Metadata Exposure    |    L1 | `.git` tidak berada di folder `public`; `.env` tidak dipush.        |
-| V15.1.1 Dependency Remediation                 |    L1 | Jalankan `composer audit` dan update dependency.                    |
-| V15.2.1 Dependency Security                    |    L1 | Dependency vulnerable tidak dibiarkan melewati waktu remediasi.     |
-| V15.3.1 Minimal Returned Fields                |    L1 | Query course hanya memilih `id`, `code`, `name`, `lecturer`.        |
+# Secure Campus 🏫
 
+Secure Campus adalah aplikasi manajemen kampus sederhana yang dibangun dengan fokus utama pada keamanan aplikasi web berdasarkan standar **OWASP Application Security Verification Standard (ASVS) Level 1**.
 
-Judul:
-Implementasi Secure Coding pada Aplikasi Secure Campus Menggunakan Laravel dan ASVS Level 1
+## 🎓 Identitas Pengembang
+- **Nama:** Yohanes Hilapok
+- **NIM:** 72230670
+- **Kelas:** A
+- **Mata Kuliah:** Keamanan Sistem Informasi
 
+<<<<<<< HEAD
 1. Identitas
    
 Nama: Yohanes Hilapok
@@ -43,48 +18,46 @@ Mata Kuliah: Keamanan Sistem informasi
 
 3. Link GitHub
 https://github.com/Jhonhil/secure-campus.git
+=======
+---
 
-4. Deskripsi Aplikasi
-Secure Campus adalah aplikasi web sederhana seperti sistem e-class/kampus yang memiliki fitur authentication: registrasi, email verification, login, logout, dan password reset.
+## 🛡️ Kepatuhan Keamanan (ASVS Level 1)
+>>>>>>> a770ea4 (tambahan)
 
-5. Tools
-- Laravel
-- VS Code
-- Laragon
-- MySQL
-- Composer
-- Node.js
-- GitHub
+Aplikasi ini telah diimplementasikan sesuai dengan standar **ASVS Level 1** untuk memastikan baseline keamanan yang kuat.
 
-5. Fitur Authentication
-- Login
-- Registrasi
-- Konfirmasi registrasi melalui email verification
-- Password reset
-- Password tersimpan dalam hash
-- Logout
-- Halaman dashboard protected
-- Halaman mata kuliah protected
+### Mapping Implementasi ASVS
 
-6. Penjelasan Secure Coding
-Aplikasi tidak hanya dibuat agar berjalan, tetapi juga memperhatikan security berdasarkan ASVS Level 1.
+| ID | Kategori | Level | Status | Implementasi di Aplikasi |
+| :--- | :--- | :---: | :---: | :--- |
+| **V1.2.1** | Output Encoding | L1 | ✅ | Menggunakan sintaks `{{ }}` Blade untuk automatic XSS protection. |
+| **V1.2.4** | SQL Injection Prevention | L1 | ✅ | Menggunakan Eloquent ORM untuk semua query database. |
+| **V2.1.1** | Validation Documentation | L1 | ✅ | Aturan validasi terdefinisi jelas pada server-side logic. |
+| **V2.2.1** | Input Validation | L1 | ✅ | Validasi input ketat pada form registrasi, login, dan reset password. |
+| **V3.3.1** | Secure Cookie | L1 | ✅ | `HttpOnly` aktif; `SameSite=Lax` untuk mitigasi CSRF. |
+| **V3.4.1** | HSTS & Security Headers | L1 | ✅ | Implementasi HSTS, X-Content-Type-Options, dan Strict CSP. |
+| **V3.5.1** | CSRF Protection | L1 | ✅ | Menggunakan middleware CSRF bawaan Laravel pada semua form. |
+| **V6.2.1** | Password Min Length | L1 | ✅ | Password minimal 8 karakter. |
+| **V6.2.4** | Common Password Rejection | L1 | ✅ | Rule `NotCommonPassword` untuk mencegah password mudah ditebak. |
+| **V6.2.5** | Password Composition | L1 | ✅ | Mewajibkan kombinasi huruf besar, huruf kecil, angka, dan simbol. |
+| **V6.3.1** | Brute Force Defense | L1 | ✅ | Implementasi Rate Limiting pada endpoint login dan 2FA. |
+| **V7.2.4** | Session Regeneration | L1 | ✅ | Session otomatis diregenerasi saat proses autentikasi. |
+| **V8.2.1** | RBAC / Access Control | L1 | ✅ | Implementasi Role-Based Access Control (Admin & User). |
+| **V8.3.1** | Server-Side Authorization | L1 | ✅ | Proteksi route menggunakan middleware `auth`, `verified`, dan `role`. |
+| **V13.4.1**| Secret Protection | L1 | ✅ | `.env` tidak dipush ke repo; Metadata `.git` terlindungi. |
 
-7. Mapping ASVS
-Masukkan tabel checklist ASVS dari bagian 17.
+---
 
-8. Proses Pembuatan
-Masukkan langkah:
-- Membuat project Laravel
-- Konfigurasi database Laragon
-- Menjalankan migration
-- Mengaktifkan email verification
-- Menambahkan protected route
-- Menambahkan halaman courses
-- Menambahkan password rule
-- Menambahkan security headers
-- Menambahkan audit log
-- Push ke GitHub
+## 🚀 Fitur Utama
 
+### 🔐 Autentikasi & Otorisasi
+- **Registrasi & Login**: Alur pendaftaran pengguna baru dengan validasi ketat.
+- **Email Verification**: Verifikasi email wajib sebelum mengakses area sensitif.
+- **Multi-Factor Authentication (MFA)**: Dukungan 2FA untuk keamanan tambahan.
+- **Password Reset**: Fitur pemulihan kata sandi yang aman melalui email.
+- **RBAC (Role-Based Access Control)**: Pembedaan hak akses antara peran **Admin** dan **User**.
+
+<<<<<<< HEAD
 9. Hasil Capture
 Masukkan screenshot:
 - Halaman register
@@ -128,9 +101,17 @@ Masukkan screenshot:
   
 - Reset password
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d89cf591-a514-48e6-963b-3cb34bb52367" />
+=======
+### 🛠️ Fitur Keamanan Teknis
+- **Strict Content Security Policy (CSP)**: Mencegah serangan XSS dan Clickjacking.
+- **Advanced Password Rules**: Validasi kompleksitas password tinggi.
+- **Security Headers Middleware**: Mengirimkan header keamanan (`nosniff`, `strict-origin`, dll) pada setiap response.
+- **Database Encryption**: Hashing password menggunakan algoritma modern (Bcrypt/Argon2).
+>>>>>>> a770ea4 (tambahan)
 
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/2cdcf4bc-8e32-49da-a039-8d311003bdb9" />
+---
 
+<<<<<<< HEAD
 - Database users memperlihatkan password hash
   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/b1bc2154-e69b-4ee0-94fc-bfe18580dbaf" />
   
@@ -141,7 +122,83 @@ Masukkan screenshot:
   
 - GitHub repository
 <img width="1920" height="1080" alt="{136A53C6-1B44-4346-AB4E-8F413831ADFF}" src="https://github.com/user-attachments/assets/4ac6fe88-ca28-44ef-b1b1-843e0998bd70" />
+=======
+## 💻 Teknologi yang Digunakan
+>>>>>>> a770ea4 (tambahan)
 
+- **Framework:** [Laravel 13](https://laravel.com)
+- **Frontend:** [Livewire 4](https://livewire.laravel.com) & [Flux UI](https://fluxui.dev)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com)
+- **Database:** MySQL
+- **Testing:** [Pest PHP](https://pestphp.com)
+- **Server Environment:** Laragon / PHP 8.3
 
-10. Kesimpulan
-Aplikasi Secure Campus telah menerapkan fitur authentication dan secure coding dasar berdasarkan ASVS Level 1. Password tidak disimpan plaintext, route penting dilindungi authentication dan verification, input divalidasi di server, session/cookie dikonfigurasi, dan dokumentasi menyediakan checklist ASVS.
+---
+
+## ⚙️ Panduan Instalasi
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/Jhonhil/secure-campus.git
+   cd secure-campus
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   composer install
+   npm install
+   ```
+
+3. **Konfigurasi Environment**
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+   *Sesuaikan konfigurasi database di file `.env`.*
+
+4. **Migrasi Database**
+   ```bash
+   php artisan migrate
+   ```
+
+5. **Menjalankan Aplikasi**
+   ```bash
+   php artisan serve
+   npm run dev
+   ```
+
+---
+
+## 🖼️ Dokumentasi Visual
+
+### Alur Autentikasi
+- **Halaman Register**:
+  <img width="1920" height="1080" alt="Register" src="https://github.com/user-attachments/assets/de2a134b-eb37-43f9-beb4-35a8fc33154f" />
+
+- **Validasi Password Kompleks**:
+  <img width="1919" height="1079" alt="Password Validation" src="https://github.com/user-attachments/assets/38d87e04-1ef9-4fd1-93bd-8dff698a97a9" />
+
+- **Email Verification**:
+  <img width="1920" height="1080" alt="Email Verify" src="https://github.com/user-attachments/assets/327cbfee-f7af-49c4-bb3e-5ba426d8040e" />
+
+### Dashboard & Akses
+- **Login Page**:
+  <img width="1920" height="1080" alt="Login" src="https://github.com/user-attachments/assets/b4c0e3ad-3c01-4d7a-aaed-34d2133e91b3" />
+
+- **User Dashboard**:
+  <img width="1920" height="1080" alt="Dashboard" src="https://github.com/user-attachments/assets/8adb38d3-184e-42bf-9f3e-a1f905b95f37" />
+
+- **Courses Page**:
+  <img width="1919" height="1079" alt="Courses" src="https://github.com/user-attachments/assets/497fd365-8669-49cd-9489-f6f12dc757b0" />
+
+### Bukti Keamanan
+- **Security Headers (Browser Inspection)**:
+  <img width="1919" height="1079" alt="Headers" src="https://github.com/user-attachments/assets/c7d20270-eb6b-48b2-a839-bd19857a3a70" />
+
+- **Password Hashing in Database**:
+  <img width="1919" height="1079" alt="DB Hash" src="https://github.com/user-attachments/assets/b1bc2154-e69b-4ee0-94fc-bfe18580dbaf" />
+
+---
+
+## 📝 Kesimpulan
+Aplikasi **Secure Campus** telah berhasil mengimplementasikan seluruh requirement **ASVS Level 1**. Dengan pendekatan *security-by-design*, aplikasi ini memberikan perlindungan terhadap ancaman umum seperti SQL Injection, XSS, CSRF, dan Brute Force, menjadikannya platform yang aman untuk lingkungan akademik.
