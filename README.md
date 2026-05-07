@@ -169,7 +169,7 @@ Masukkan screenshot:
   <img width="1920" height="1080" alt="Register" src="https://github.com/user-attachments/assets/de2a134b-eb37-43f9-beb4-35a8fc33154f" />
 
 - **Validasi Password Kompleks**:
-  <img width="1919" height="1079" alt="Password Validation" src="https://github.com/user-attachments/assets/38d87e04-1ef9-4fd1-93bd-8dff698a97a9" />
+ <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/757d31ce-8869-4ec4-b7d9-3141fc5d65d1" />
 
 - **Email Verification**:
   <img width="1920" height="1080" alt="Email Verify" src="https://github.com/user-attachments/assets/327cbfee-f7af-49c4-bb3e-5ba426d8040e" />
@@ -186,7 +186,7 @@ Masukkan screenshot:
 
 ### Bukti Keamanan
 - **Security Headers (Browser Inspection)**:
-  <img width="1919" height="1079" alt="Headers" src="https://github.com/user-attachments/assets/c7d20270-eb6b-48b2-a839-bd19857a3a70" />
+ <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d76949ce-d3f9-4d84-bd0a-ce3d40df96d0" />
 
 - **Password Hashing in Database**:
   <img width="1919" height="1079" alt="DB Hash" src="https://github.com/user-attachments/assets/b1bc2154-e69b-4ee0-94fc-bfe18580dbaf" />
