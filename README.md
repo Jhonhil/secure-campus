@@ -2,19 +2,12 @@
 
 Secure Campus adalah aplikasi manajemen kampus sederhana yang dibangun dengan fokus utama pada keamanan aplikasi web berdasarkan standar **OWASP Application Security Verification Standard (ASVS) Level 1**.
 
+<<<<<<< HEAD
 ## 🎓 Identitas Pengembang
 - **Nama:** Yohanes Hilapok
 - **NIM:** 72230670
 - **Kelas:** A
 - **Mata Kuliah:** Keamanan Sistem Informasi
-
-<<<<<<< HEAD
-1. Identitas
-   
-Nama: Yohanes Hilapok
-NIM: 72230670
-Kelas: A
-Mata Kuliah: Keamanan Sistem informasi
 
 3. Link GitHub
 https://github.com/Jhonhil/secure-campus.git
