@@ -46,6 +46,8 @@ Aplikasi ini telah diimplementasikan sesuai dengan standar **ASVS Level 1** untu
 ### 🔐 Autentikasi & Otorisasi
 - **Registrasi & Login**: Alur pendaftaran pengguna baru dengan validasi ketat.
 - **Email Verification**: Verifikasi email wajib sebelum mengakses area sensitif.
+  <img width="1920" height="1080" alt="{CCF433DD-1BDE-4BD8-BC28-85D73077F282}" src="https://github.com/user-attachments/assets/8eec99c2-23dc-4cc5-8d31-9f418f68f53c" />
+
 - **Multi-Factor Authentication (MFA)**: Dukungan 2FA untuk keamanan tambahan.
 - **Password Reset**: Fitur pemulihan kata sandi yang aman melalui email.
 - **RBAC (Role-Based Access Control)**: Pembedaan hak akses antara peran **Admin** dan **User**.
