@@ -117,9 +117,12 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
 - **Security Headers (Browser Inspection - CSP & HSTS)**
  <img width="748" height="322" alt="image" src="https://github.com/user-attachments/assets/8ee5e5fd-2de6-4d82-a4c8-b2676fba18f6" />
 
+
  <img width="530" height="41" alt="image" src="https://github.com/user-attachments/assets/56944c7d-bd90-4018-b38f-aab0d23006f4" />
 
+
  <img width="767" height="246" alt="image" src="https://github.com/user-attachments/assets/9346d77d-d952-4bc4-98fc-a40254dcc1c7" />
+
 
 - **HTTPS Lock Icon (Koneksi Aman)**
   <img width="1920" height="1080" alt="HTTPS Lock" src="https://github.com/user-attachments/assets/8eec99c2-23dc-4cc5-8d31-9f418f68f53c" />
@@ -133,7 +136,7 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
 - **Setup Multi-Factor Authentication (MFA/2FA)**
  <img width="1920" height="1080" alt="{60BC8905-7966-4E90-87C0-A0DB03513BC5}" src="https://github.com/user-attachments/assets/62e44381-a122-44db-a78e-dd86aee27d48" />
 
-<img width="1920" height="1080" alt="{3832CBD5-F725-47AD-87E4-BD8EE95ACB6C}" src="https://github.com/user-attachments/assets/d6481afe-6b55-41e5-922f-d646ae7e55f0" />
+<img width="1920" height="1080" alt="{41C80EF8-D529-42B6-9571-28BED315126E}" src="https://github.com/user-attachments/assets/972c1c30-83a3-4231-874e-6340682904ec" />
 
 ---
 
