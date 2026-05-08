@@ -109,15 +109,17 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
   <img width="1919" height="1079" alt="Courses" src="https://github.com/user-attachments/assets/497fd365-8669-49cd-9489-f6f12dc757b0" />
 
 - **Bukti RBAC (Forbidden Access 403)**
-  `[❌ FOTO BELUM ADA: Masukkan screenshot Error 403 saat User mencoba akses URL Admin]`
-  `<!-- MASUKKAN LINK GAMBAR DI SINI -->`
+<img width="1920" height="1080" alt="{7AF8316D-EB2A-44A9-8A9A-15D47CB665C9}" src="https://github.com/user-attachments/assets/a31c504a-626f-433a-8f98-ece26f0235f6" />
 
 ---
 
 ### 🔴 C. IMPLEMENTASI KEAMANAN SISTEM
 - **Security Headers (Browser Inspection - CSP & HSTS)**
-  `[⚠️ PERLU UPDATE FOTO: Ganti dengan screenshot Response Headers terbaru yang menunjukkan CSP ketat]`
-  `<!-- MASUKKAN LINK GAMBAR DI SINI -->`
+ <img width="748" height="322" alt="image" src="https://github.com/user-attachments/assets/8ee5e5fd-2de6-4d82-a4c8-b2676fba18f6" />
+
+ <img width="530" height="41" alt="image" src="https://github.com/user-attachments/assets/56944c7d-bd90-4018-b38f-aab0d23006f4" />
+
+ <img width="767" height="246" alt="image" src="https://github.com/user-attachments/assets/9346d77d-d952-4bc4-98fc-a40254dcc1c7" />
 
 - **HTTPS Lock Icon (Koneksi Aman)**
   <img width="1920" height="1080" alt="HTTPS Lock" src="https://github.com/user-attachments/assets/8eec99c2-23dc-4cc5-8d31-9f418f68f53c" />
@@ -126,12 +128,12 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
   <img width="1919" height="1079" alt="DB Hash" src="https://github.com/user-attachments/assets/b1bc2154-e69b-4ee0-94fc-bfe18580dbaf" />
 
 - **Database Table Role Column**
-  `[❌ FOTO BELUM ADA: Masukkan screenshot Tabel users di Database yang memperlihatkan kolom role]`
-  `<!-- MASUKKAN LINK GAMBAR DI SINI -->`
+ <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d4020a65-ed31-46e8-b9db-1701b9052019" />
 
 - **Setup Multi-Factor Authentication (MFA/2FA)**
-  `[❌ FOTO BELUM ADA: Masukkan screenshot Setup QR Code atau Input Kode 2FA]`
-  `<!-- MASUKKAN LINK GAMBAR DI SINI -->`
+ <img width="1920" height="1080" alt="{60BC8905-7966-4E90-87C0-A0DB03513BC5}" src="https://github.com/user-attachments/assets/62e44381-a122-44db-a78e-dd86aee27d48" />
+
+<img width="1920" height="1080" alt="{3832CBD5-F725-47AD-87E4-BD8EE95ACB6C}" src="https://github.com/user-attachments/assets/d6481afe-6b55-41e5-922f-d646ae7e55f0" />
 
 ---
 
