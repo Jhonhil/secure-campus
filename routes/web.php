@@ -10,6 +10,11 @@ Route::middleware(['auth', 'verified'])->group(function () {
 
     Route::get('/courses', [CourseController::class, 'index'])
         ->name('courses.index');
+
+    // Route khusus testing RBAC
+    Route::get('/admin-secret', function () {
+        return "<h1>Sangat Rahasia: Selamat datang di area Admin!</h1>";
+    })->middleware('role:admin');
 });
 
 require __DIR__ . '/settings.php';
