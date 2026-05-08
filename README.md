@@ -124,7 +124,7 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
   <img width="1919" height="1079" alt="DB Hash" src="https://github.com/user-attachments/assets/b1bc2154-e69b-4ee0-94fc-bfe18580dbaf" />
 
 - **Database Table Role Column**
-  `[❌ FOTO BELUM ADA: Masukkan screenshot tabel users yang memperlihatkan kolom role]`
+  `[❌ FOTO BELUM ADA: Masukkan screenshot Tabel users di Database yang memperlihatkan kolom role]`
   `<!-- MASUKKAN LINK GAMBAR DI SINI -->`
 
 - **Setup Multi-Factor Authentication (MFA/2FA)**
