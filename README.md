@@ -103,7 +103,7 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
   <img width="1920" height="1080" alt="Login" src="https://github.com/user-attachments/assets/b4c0e3ad-3c01-4d7a-aaed-34d2133e91b3" />
 
 - **User Dashboard**
-  <img width="1920" height="1080" alt="Dashboard" src="https://github.com/user-attachments/assets/8adb38d3-184e-42bf-9f3e-a1f905b95f37" />
+<img width="1920" height="1080" alt="{D8B3AECF-76F5-483C-9567-46676B6E1A05}" src="https://github.com/user-attachments/assets/f0489749-0d56-4ffa-8fda-aa45444bf917" />
 
 - **Halaman Courses**
   <img width="1919" height="1079" alt="Courses" src="https://github.com/user-attachments/assets/497fd365-8669-49cd-9489-f6f12dc757b0" />
