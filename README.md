@@ -106,10 +106,10 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
 <img width="1920" height="1080" alt="{D8B3AECF-76F5-483C-9567-46676B6E1A05}" src="https://github.com/user-attachments/assets/f0489749-0d56-4ffa-8fda-aa45444bf917" />
 
 - **Halaman Courses**
-  <img width="1919" height="1079" alt="Courses" src="https://github.com/user-attachments/assets/497fd365-8669-49cd-9489-f6f12dc757b0" />
+  <img width="1920" height="1080" alt="{1DC28241-599D-4C36-9974-C6DDA068E906}" src="https://github.com/user-attachments/assets/1a76be32-d136-46da-82b0-7205e49b1758" />
 
 - **Bukti RBAC (Forbidden Access 403)**
-<img width="1920" height="1080" alt="{1DC28241-599D-4C36-9974-C6DDA068E906}" src="https://github.com/user-attachments/assets/1a76be32-d136-46da-82b0-7205e49b1758" />
+  <img width="1920" height="1080" alt="{517A268E-176D-4943-A865-A06BC2FB2582}" src="https://github.com/user-attachments/assets/ba11bca7-194a-48d8-b105-84d33072f5a4" />
 
 ---
 
