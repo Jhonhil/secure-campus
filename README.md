@@ -84,15 +84,17 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
   <img width="1920" height="1080" alt="Register" src="https://github.com/user-attachments/assets/de2a134b-eb37-43f9-beb4-35a8fc33154f" />
 
 - **Validasi Password Kompleks (Harus mengandung Huruf Besar, Kecil, Angka, & Simbol)**
-  `[⚠️ PERLU UPDATE FOTO: Ganti dengan screenshot error validasi password kompleks terbaru]`
-  `<!-- MASUKKAN LINK GAMBAR DI SINI -->`
+  <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/4094540a-504e-4341-80f0-ec86a539d8fe" />
 
 - **Email Verification Notice**
   <img width="1920" height="1080" alt="Email Verify" src="https://github.com/user-attachments/assets/327cbfee-f7af-49c4-bb3e-5ba426d8040e" />
 
 - **Proses Forgot & Reset Password**
-  `[❌ FOTO BELUM ADA: Masukkan screenshot Halaman Request Reset Password & Input Password Baru]`
-  `<!-- MASUKKAN LINK GAMBAR DI SINI -->`
+   <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/8fd931fc-b288-40c6-9803-467f4e0cee35" />
+
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/8e56ac94-513b-4d59-a706-f2f9ad9c6257" />
+
+   <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/00e2f075-f19c-4463-adeb-c864bace3a49" />
 
 ---
 
