@@ -75,7 +75,7 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
 4. **Database**: Konfigurasi DB di `.env`, lalu jalankan `php artisan migrate`
 5. **Run**: Jalankan `php artisan serve` dan `npm run dev`
 
-> **💡 Catatan Pengujian RBAC:** Untuk mencoba fitur Admin, silakan ubah secara manual kolom `role` pada salah satu akun user menjadi `'admin'` melalui database (phpMyAdmin/HeidiSQL).
+> **💡 Catatan Pengujian RBAC:** Untuk mencoba fitur Admin, silakan ubah secara manual kolom `role` pada salah satu akun user menjadi `'admin'` melalui database (phpMyAdmin).
 
 ## 10. Hasil Capture
 
