@@ -92,8 +92,7 @@ Untuk menguji fitur keamanan aplikasi ini, jalankan langkah berikut:
   <img width="1920" height="1080" alt="Email Verify" src="https://github.com/user-attachments/assets/327cbfee-f7af-49c4-bb3e-5ba426d8040e" />
 
 - **Pertahanan Brute Force (Rate Limiting - Error 429)**
-  `[❌ FOTO BELUM ADA: Masukkan screenshot pesan 'Terlalu Banyak Permintaan' saat login salah berkali-kali]`
-  `<!-- MASUKKAN LINK GAMBAR DI SINI -->`
+<img width="1600" height="900" alt="2" src="https://github.com/user-attachments/assets/8f3f153f-00d5-4309-bd13-a4a59fee56a4" />
 
 - **Proses Forgot & Reset Password**
    <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/8fd931fc-b288-40c6-9803-467f4e0cee35" />
